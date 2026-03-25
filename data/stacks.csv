@@ -1,0 +1,4 @@
+id|name|setup|main_file|font_method|animation_note
+nextjs|Next.js + Tailwind|npx create-next-app@latest site --tailwind --app --yes|app/page.tsx|next/font/google|Use CSS animations; canvas in useEffect with cleanup
+react-vite|React + Vite|npm create vite@latest site -- --template react-ts|src/App.tsx|Google Fonts link in index.html|CSS animations; canvas in useEffect
+html|HTML + Tailwind CDN|Create index.html manually|index.html|Google Fonts link tag in head|Pure CSS keyframes; vanilla JS canvas

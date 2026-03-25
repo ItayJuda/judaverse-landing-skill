@@ -1,0 +1,20 @@
+id|name|description|best_for|implementation
+particles|Particles Network|Floating dots connecting with lines|AI tools; tech; SaaS|canvas requestAnimationFrame - dots array with velocity - connect lines under 120px distance
+aurora|Aurora Waves|Slow colored gradient waves|wellness; luxury; creative|CSS keyframes - multiple radial-gradients animating position and opacity
+rainbow-beam|Rainbow Beam|Holographic horizontal light streak|tech agencies; AI; portfolios|Single div - linear-gradient full spectrum - animate translateY with blur filter
+floating-orbs|Floating Orbs|Large blurred color orbs drifting|SaaS; fintech; apps|Multiple absolute divs - radial-gradient - animate transform with different durations
+grid-lines|Grid Lines|Perspective grid receding to horizon|tech; gaming; retro|CSS perspective on grid div - animate backgroundPosition
+none|No Animation|Clean static background|minimal; corporate; law|Solid dark background - no animation
+morphing-blob|Morphing Blob|3D organic shape morphing continuously|AI tools; creative; cutting-edge|Three.js SphereGeometry with perlin noise on vertices - animate time uniform
+typewriter|Typewriter Text|Text appears character by character|portfolios; agencies; personal brands|JS loop adding chars with setTimeout - blinking cursor with CSS animation
+glitch|Glitch Effect|Digital glitch distortion on text or image|gaming; cyberpunk; bold brands|CSS clip-path animation - multiple pseudo-elements offset in X - animate rapidly
+scroll-reveal|Scroll Reveal|Elements animate in as user scrolls down|all projects|IntersectionObserver API - add visible class triggering CSS transform and opacity
+counter-up|Count Up Numbers|Stats numbers count up from zero|stats sections; landing pages|JS requestAnimationFrame - increment value over 2s - easeOutQuad timing
+gradient-mesh|Gradient Mesh|Animated colorful gradient mesh background|SaaS; creative; modern apps|CSS conic-gradient or mesh-gradient - animate hue-rotate and scale
+noise-grain|Noise Grain Overlay|Subtle film grain texture over background|luxury; editorial; premium|SVG feTurbulence filter - animate seed value - low opacity overlay
+spotlight|Spotlight Cursor|Light spotlight follows mouse cursor|portfolios; interactive; premium|JS mousemove listener - radial-gradient centered on cursor position
+floating-cards|Floating Cards|UI cards floating with parallax depth|SaaS product; app showcase|CSS transform translateY with different animation-delay per card - subtle infinite loop
+wave-text|Wave Text|Letters animate in a flowing wave pattern|creative; agencies; bold brands|JS loop applying CSS animation-delay per letter - translateY sine wave
+stars-bg|Starfield Background|Tiny dots moving slowly like stars|space; tech; dark premium|Canvas - random dots array - slow velocity - wrap around edges
+scanlines|Scanlines Overlay|CRT monitor horizontal line effect|retro; gaming; nostalgic|CSS repeating-linear-gradient - semi-transparent lines - subtle opacity
+liquid-gradient|Liquid Gradient|Slow moving liquid color blobs|wellness; creative; modern|CSS radial-gradient blobs - animate border-radius and transform - blur filter

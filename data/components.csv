@@ -1,0 +1,34 @@
+id|name|type|must_include|avoid|tailwind_hint
+hero-dark|Dark Hero|hero|Large headline; subheadline; 2 CTAs; badge; animation|Stock photos; light bg; small text|min-h-screen flex flex-col justify-center px-12 relative overflow-hidden
+hero-split|Split Hero|hero|Headline left; visual right; single CTA|Centered layout; too much copy|min-h-screen grid grid-cols-2 items-center px-12
+navbar-fixed|Fixed Navbar|nav|Logo; 3-4 links; CTA button|Too many links; heavy borders|fixed top-0 w-full flex justify-between items-center px-12 py-6 z-50
+services-grid|Services Grid|services|Number; icon; name; 1-line desc|Long text; images; moving hover|grid grid-cols-3 gap-px
+stats-row|Stats Row|stats|4 numbers; labels; dividers|Percentages only; too many stats|grid grid-cols-4 gap-px
+marquee|Marquee Ticker|marquee|8+ items duplicated; smooth loop|Pausing on hover; too fast|overflow-hidden border-y border-white/10 py-4
+cta-centered|CTA Section|cta|Strong headline; single button|Multiple buttons; form|py-32 text-center
+footer-minimal|Minimal Footer|footer|Logo; copyright|Mega footer; newsletter|border-t border-white/10 py-8 flex justify-between px-12
+availability-badge|Availability Badge|badge|Pulsing green dot; short text|Red dot; long text|flex items-center gap-2 text-sm
+hero-video|Video Hero|hero|Autoplay muted video bg; headline overlay; single CTA|Sound on autoload; heavy file; text on busy area|min-h-screen relative overflow-hidden flex items-center
+hero-minimal|Minimal Hero|hero|Large headline only; one CTA; lots of whitespace|Animation; badges; multiple CTAs|min-h-screen flex flex-col justify-center px-12 max-w-3xl
+logo-bar|Logo Bar|trust|6-8 client logos; grayscale; "trusted by" label|Colored logos; too many; clickable|py-12 flex items-center gap-12 opacity-40 grayscale
+features-3col|Features 3 Column|features|Icon; short name; 2-line desc per card|Long paragraphs; images; hover animations|grid grid-cols-3 gap-8 py-24
+features-alternating|Alternating Features|features|Visual left then right alternating; headline; desc; CTA|Same side every row; stock photos|flex flex-col gap-32 py-24
+pricing-table|Pricing Table|pricing|2-3 tiers; monthly/annual toggle; recommended badge; feature checklist|Too many tiers; hidden fees; no CTA per tier|grid grid-cols-3 gap-px py-24
+testimonials-grid|Testimonials Grid|social-proof|3 cards; name; title; company; specific result quote|Generic quotes; no attribution; fake photos|grid grid-cols-3 gap-6 py-24
+testimonials-carousel|Testimonials Carousel|social-proof|Single large quote; auto-rotate; dots navigation|Too fast rotation; no pause on hover|py-24 relative overflow-hidden
+faq-accordion|FAQ Accordion|faq|6-8 questions; smooth open/close; chevron icon|All open by default; no close; wall of text|flex flex-col divide-y divide-white/10 py-24
+team-grid|Team Grid|about|Photo; name; title; optional social links|Bios longer than 2 lines; no photos|grid grid-cols-4 gap-8 py-24
+process-steps|Process Steps|process|3-5 numbered steps; short title; 1-line desc; connecting line|Too many steps; long descriptions|flex items-start gap-0 py-24 relative
+timeline|Timeline|about|Vertical line; date; event title; short desc|Too many items; no dates; wall of text|relative flex flex-col gap-12 py-24 border-l border-white/10 pl-8
+comparison-table|Comparison Table|features|Us vs them; checkmarks; feature rows; highlighted column|Too many columns; subjective claims|grid grid-cols-3 gap-px py-24
+benefits-list|Benefits List|features|4-6 checkmark items; icon; short benefit statement|Long paragraphs; nested lists|flex flex-col gap-4 py-12
+gallery-grid|Gallery Grid|portfolio|Masonry or uniform grid; hover overlay; lightbox|No hover state; mixed aspect ratios|grid grid-cols-3 gap-2 py-24
+video-embed|Video Embed|media|Thumbnail with play button; modal or inline; caption|Autoplay with sound; no thumbnail|py-24 flex justify-center relative
+newsletter-cta|Newsletter CTA|cta|Email input; single CTA button; privacy note|Too many fields; no privacy note|py-24 flex flex-col items-center gap-4 text-center
+social-proof-bar|Social Proof Bar|trust|3-4 stats with large numbers; labels; dividers|Too many stats; no context|flex items-center justify-around py-12 border-y border-white/10
+integration-logos|Integrations|trust|"Works with" label; 6-10 tool logos; grayscale|Too many logos; colored logos; clickable|py-16 flex flex-wrap gap-8 items-center justify-center opacity-50
+countdown-timer|Countdown Timer|urgency|Days/hours/minutes/seconds; deadline label; CTA below|Fake countdown; no CTA; too prominent|flex gap-8 items-center justify-center py-12
+sticky-cta-bar|Sticky CTA Bar|cta|Fixed bottom; short message; single CTA; close button|No close button; too tall; on mobile only|fixed bottom-0 w-full flex items-center justify-between px-12 py-4 z-50
+mobile-app-mockup|App Mockup|media|Phone frame with screenshot; feature list beside|Fake screenshots; too many phones|grid grid-cols-2 gap-16 items-center py-24
+back-to-top|Back To Top|utility|Fixed button; appears after scroll; smooth scroll|Always visible; no animation|fixed bottom-8 right-8 opacity-0 transition-opacity z-40
+404-page|404 Page|utility|Large 404; message; back home CTA; optional illustration|Wall of text; no CTA; scary error message|min-h-screen flex flex-col items-center justify-center text-center
