@@ -79,10 +79,10 @@ judaverse-landing-skill/
 ├── scripts/
 │   └── search.py                 ← BM25 search (no external deps)
 └── data/
-    ├── animations.csv            ← 6 animation options
-    ├── components.csv            ← 9 section components
-    ├── layouts.csv               ← 5 page layouts by business type
-    └── stacks.csv                ← 3 framework setups
+    ├── animations.csv            ← 19 animation options
+    ├── components.csv            ← 33 section components
+    ├── layouts.csv               ← 20 page layouts by business type
+    └── stacks.csv                ← 10 framework setups
 ```
 
 ---
