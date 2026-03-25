@@ -16,6 +16,12 @@ When you ask Claude Code to build a website or landing page, this skill kicks in
 
 ---
 
+## Preview
+
+![Landing page built with judaverse-landing-skill](preview.png)
+
+---
+
 ## Installation
 
 ### 1. Copy the skill into your project
